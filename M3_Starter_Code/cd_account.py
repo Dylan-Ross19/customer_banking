@@ -17,7 +17,7 @@ def create_cd_account(balance, interest_rate, months):
     #  Hint: You need to add the interest as a value, i.e, 0.
     # ADD YOUR CODE HERE
     cd = Account(balance, interest_rate)
-    cd.set_interest(0)
+    
     # Calculate interest earned
     # ADD YOUR CODE HERE
     cd_interest_accrued = cd.balance * ((cd.interest/100) * (months/12))
